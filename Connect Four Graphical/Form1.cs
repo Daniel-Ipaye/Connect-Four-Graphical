@@ -31,17 +31,8 @@ namespace Connect_Four_Graphical
         public Form1()
         {
             InitializeComponent();
-            //Form1 form1 = new Form1();
             StartupSequence();
-     
-            //drawBoard(xTiles, yTiles, formWidth, formHeight);
-            /*
-            //board[1, 5] = 'r';
-            //checkBoard(xTiles, yTiles);
-            */
-            //drawBoard(xTiles, yTiles, formWidth, formHeight);
         }
-        //add the ai to the program
         static void checkBoard(int xTiles, int yTiles) 
         {
             int number = 1;
